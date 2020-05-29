@@ -1,0 +1,159 @@
+.flaticon1{
+  width: 10%;
+  height: 100px;
+  color: #fce8d5;
+}
+.flaticon{
+  width: 20%;
+  height: 25%;
+  margin: auto 20px;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 30px 0;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 7%;
+}
+.r1{
+  padding: 3% 15%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 1.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 3.5rem;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+/* Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title image */
+.flaticon2{
+  width: 55%;
+  height: 550px;
+  transform: rotate(25deg);
+  padding-top: 2rem;
+  position: absolute;
+  right: 30%;
+
+}
+/* This was all about the title sections. Now, the features section. */
+ /* easy to use icon */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+.feat{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;:
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Catergories Section */
+#categories{
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cat{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #feceab;
+  margin: 30px auto;
+}
+/* Bestsellers */
+#bestsellers{
+  background-color: #ef8172;
+  text-align: center;
+}
+.carousel-inner{
+  padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+  padding: 50px;
+  text-align: center;
+}
+.price{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: black;
+}
+.pricing-sec{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px){
+.flaticon2{
+  position: static;
+  transform: rotate(0);
+}
+.title{
+  text-align: center;
+}
+}
+/* Call to action Section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.ct{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+/* Copywright section */
+#footer{
+  text-align: center;
+  padding: 7% 15%
+}
+.foot{
+  color: grey;
+}
+.f{
+  margin: 20px 10px;
+}
